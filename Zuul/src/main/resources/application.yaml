@@ -1,0 +1,10 @@
+zuul:
+  routes:
+    uaa:
+      path: /uaa/**
+      sensitiveHeaders:
+      serviceId: auth-server
+    account:
+      path: /account/**
+      sensitiveHeaders:
+      serviceId: account-service

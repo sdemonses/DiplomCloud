@@ -1,0 +1,7 @@
+rootProject.name = 'CloudDiplom'
+include 'eureka'
+include 'routes'
+include 'zuul'
+include 'service'
+include 'Authorization'
+
